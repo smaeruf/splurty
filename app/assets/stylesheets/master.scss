@@ -16,6 +16,9 @@
 
  @import "bootstrap";
 
+ 
+
+
  .clear {
   clear: both;
 }
@@ -57,14 +60,29 @@
 .links a {
   color: black;
   font-size: 25px;
-   border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  font-family: 'nexa_rust_extrasfree';
+  font-weight: bold;
 }
 
 header {
   border-top: 9px solid #222222;
 }
 
-
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'nexa_rust_extrasfree';
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+}
+
+
+h2 {
+  font-family: 'nexa_rust_extrasfree';
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
